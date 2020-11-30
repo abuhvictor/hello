@@ -1,4 +1,4 @@
-# my first form design
+# about me
 
 hello! i am victor, 
 am a junior front end developer, just starting out
