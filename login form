@@ -1,0 +1,107 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>golf club login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.golf1 {
+    background-image: url(/pexels-gotta-be-worth-it-919317.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.forms {
+    padding: 10px;
+    margin: 5% 10% auto;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    box-shadow: 5px 5px 7px #cabdbd;
+    font-size: 20px;
+}
+
+.forms input {
+    padding: 7px 30px;
+    margin: 10px;
+    border: 0px;
+    border-bottom: 2px solid;
+    background: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+button {
+    padding: 5px 75px;
+    display: block;
+    align-self: center;
+    margin: 25px;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 150px;
+}
+
+button:hover {
+    background-color: blue;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.options {
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #ffffff;
+}</style>
+</head>
+
+<body>
+    <div class="golf1">
+        <h1>welcome to the pack golf club</h1>
+        <div class="forms">
+            <h2>login or sign up</h2>
+            <!--form section-->
+            <form action="">
+                <input type="email" placeholder="username or email">
+                <input type="password" placeholder="password">
+                <button type="submit">login</button>
+                <a href="#">forgot password</a>
+                <span class="options">already have an account?<a href="#">sign up</a></span>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
